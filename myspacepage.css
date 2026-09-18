@@ -1,0 +1,24 @@
+.page-header {
+    color: darkcyan;
+    background-image: linear-gradient(to right,purple,coral);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.star {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle {
+    from {background-color: yellow;}
+    to {background-color: pink;}
+}
+
+.fact-card {
+    background-image: linear-gradient(to bottom,lightgreen,blue);
+}
